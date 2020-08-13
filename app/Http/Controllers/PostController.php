@@ -74,7 +74,6 @@ class PostController extends Controller
 
 
             $post->tags()->sync($tags_id);
-            dd($post);
 
             $post->save();
 
